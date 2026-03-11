@@ -22,6 +22,6 @@ public class MainSinhVien {
         sv3.setMaSV("ABC123");  // Mã SV không hợp lệ
         // Truy cập thông qua getter
         System.out.println("\nTên sv1: " + sv1.getTen());
-        System.out.println("Điểm TB sv2: " + sv2.getDiemTB())
+        System.out.println("Điểm TB sv2: " + sv2.getDiemTB());
     }
 }
