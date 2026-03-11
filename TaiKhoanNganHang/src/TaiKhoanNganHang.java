@@ -38,7 +38,7 @@ public class TaiKhoanNganHang {
             System.out.println("Gửi tiền thành công! Số dư mới: " + this.soDu);
             return true;
         }
-        System.out.println("Số tiền gửi phải > 0!")
+        System.out.println("Số tiền gửi phải > 0!");
         return false;
     }
     // Phương thức rút tiền
