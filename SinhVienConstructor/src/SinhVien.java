@@ -65,4 +65,19 @@ public class SinhVien {
             System.out.println("Điểm TB phải từ 0.0 đến 10.0!");
         }
     }
+    public void hienThiThongTin() {
+        System.out.println("=== THÔNG TIN SINH VIÊN ===");
+        System.out.println("Tên: " + this.ten);
+        System.out.println("Tuổi: " + this.tuoi);
+        System.out.println("Mã SV: " + this.maSV);
+        System.out.println("Điểm TB: " + this.diemTB);
+        System.out.println("Xếp loại: " + this.xepLoai());
+    }
+    // Phương thức private - chỉ dùng nội bộ
+    private String xepLoai() {
+        if (diemTB >= 8.0) return "Giỏi";
+        else if (diemTB >= 6.5) return "Khá";
+        else if (diemTB >= 5.0) return "Trung bình";
+        else return "Yếu";
+    }
 }
