@@ -1,4 +1,4 @@
-package hhuu;
+package hhuy;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class runMain {
