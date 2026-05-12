@@ -32,12 +32,13 @@ public class SanPham {
 }
 
 class Main {
-    /* * TÓM TẮT CÁCH GIẢI CÂU 2:
-     * - Sử dụng ArrayList để quản lý danh sách các đối tượng SanPham.
+
+	/* - Sử dụng ArrayList để quản lý danh sách các đối tượng SanPham.
      * - Khởi tạo nhanh (hard-code) 3 sản phẩm và dùng vòng lặp for-each để xuất dữ liệu.
      * - Dùng lớp Scanner kết hợp với các phương thức nextLine(), nextDouble() để nhận dữ liệu mới.
      * - Dùng phương thức equalsIgnoreCase() để so sánh chuỗi khi lọc loại "Thực phẩm chức năng".
      */
+	
     public static void main(String[] args) {
         ArrayList<SanPham> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
